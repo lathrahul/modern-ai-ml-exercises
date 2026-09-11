@@ -9,25 +9,24 @@
 
 ## How the starter notebook fits
 
-The Colab starter is both the **Week 2 guided clinic** and the starting workspace for Exercise 01. During class, complete Sections 1–8 to compare prepared baselines and regression models, inspect residual evidence, and make an initial model decision. Section 9 marks the transition to your independent exercise work.
+The Colab starter is both the **Week 2 guided clinic** and the starting workspace for Exercise 01. During class, complete Sections 1–7 to compare prepared baselines and regression models, inspect residual evidence, and create three lab outputs. Use Section 8 to prepare your individual Blackboard Participation Card response. Section 9 marks the transition to your independent exercise work.
 
 The guided clinic is not the complete submission. After class, use the full requirements below to extend the analysis, generate predictions for the test properties, write the acquisition memo, and prepare the required files for Blackboard.
 
-### In-class coefficient memo
+### In-class lab outputs and participation response
 
-Before leaving the Week 2 clinic, save four bullets in your notebook:
+Before the class debrief, save three outputs in your own notebook:
 
-1. the acquisition decision the model can support;
-2. one coefficient interpreted with units and conditional language;
-3. held-out evidence compared with the baseline; and
-4. one limitation, operating guardrail, or next test.
+1. a comparison of baseline, simple-regression, and multiple-regression MAE/RMSE;
+2. one scenario test using a different `example_area` or high-price cutoff; and
+3. one segment-risk finding with a proposed operating guardrail.
 
-This is a working checkpoint, not a separate submission. Revise these bullets into the one-page acquisition memo required for the final Exercise 01 submission.
+Choose one output that your pair can demonstrate during the debrief. Section 8 then helps you prepare a provisional decision, evidence, risk, and guardrail. These notes are not a separate submission. After peer discussion, submit the Week 2 Participation Card individually in Blackboard. The polished one-page acquisition memo remains part of the final Exercise 01 submission.
 
 ## Start and submit
 
 1. Open the starter notebook with the Colab button above and select **File → Save a copy in Drive**. Do not use a GitHub Gist.
-2. During the Week 2 clinic, complete Sections 1–8 and save your initial decision, evidence, and unresolved risk.
+2. During the Week 2 clinic, complete Sections 1–7, save all three lab outputs, and use Section 8 to prepare your Participation Card response.
 3. After class, continue from Section 9 and complete every requirement in this brief. Restart the runtime and run the finished notebook from top to bottom.
 4. Validate `submission.csv`, then inspect it with the [shared output explorer](../shared/OUTPUT_EXPLORER.md).
 5. Download the executed notebook and required outputs to your computer.
