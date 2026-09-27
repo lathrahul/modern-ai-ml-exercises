@@ -7,14 +7,17 @@
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
 
-## Week 4 classroom flow
+## Classroom flow and checkpoints
 
-Week 4 builds the probability-modeling foundation in two passes:
+This starter notebook belongs to the **graded, multiweek Exercise 02**. It is
+separate from the shorter in-class guided-practice notebooks.
 
-1. Inspect correlations and group churn rates, then fit Model A with tenure, Model B with tenure and monthly charges, and Model C with the full feature set. Compare all three on the same validation customers and use five-fold stratified cross-validation for Model C.
-2. Redo Model C with near-unpenalized, Ridge, and Lasso logistic regression while keeping the rows, preprocessing, and evaluation setup fixed. Record validation metrics, coefficient shrinkage, and the number of exact-zero coefficients.
+1. **Week 4 checkpoint:** inspect relationships; fit Model A with tenure, Model B with tenure and monthly charges, and Model C with the full feature set; evaluate the baseline with a stratified split and five-fold cross-validation. Before regularization, distinguish these modeling iterations from the optimizer iterations used to fit one fixed specification.
+2. **Week 5 checkpoint A:** redo Model C with near-unpenalized, Ridge, and Lasso logistic regression while keeping rows, preprocessing, folds, and metrics fixed.
+3. **Week 5 checkpoint B:** convert probabilities into a retention-contact policy using campaign economics, contact capacity, and one sensitivity scenario.
+4. **Week 6 checkpoint:** compare a tree-based model and finalize the model-and-policy recommendation.
 
-Stop there for Week 4. Threshold economics, sensitivity analysis, the tree-based comparison, and the final retention policy are completed after Week 5.
+The Week 5 checkpoint should be complete before adding the Week 6 tree-based comparison.
 
 ## Start and submit
 
@@ -53,8 +56,9 @@ The data derive from IBM's fictional telecom sample and have been prepared speci
 2. Establish an always-stay baseline.
 3. Use stratified cross-validation or justify a stronger alternative.
 4. Fit and compare:
-   - logistic regression;
-   - L1-regularized logistic regression;
+   - near-unpenalized logistic regression;
+   - Ridge (L2) logistic regression;
+   - Lasso (L1) logistic regression;
    - one decision tree or Random Forest after Session 6.
 5. Report ROC-AUC, PR-AUC, log loss, and at least one confusion matrix.
 6. Calculate expected campaign value over a range of thresholds using the supplied assumptions.
