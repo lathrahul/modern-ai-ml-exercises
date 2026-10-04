@@ -3,7 +3,7 @@
 [![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-02-retention/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
 
 **Release:** End of Session 4  
-**Due:** See the Exercise 02 assignment in Blackboard
+**Due:** Sunday, October 11, 2026 at 11:59 PM EDT (Blackboard controls any announced change)
 
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
@@ -18,7 +18,7 @@ separate from the shorter in-class guided-practice notebooks.
 3. **Week 5 checkpoint B:** convert probabilities into a retention-contact policy using campaign economics, contact capacity, and one sensitivity scenario.
 4. **Week 6 checkpoint:** compare a tree-based model and finalize the model-and-policy recommendation. Keep the validation rows, preprocessing pipeline, folds, and metrics unchanged when comparing the tree-based candidate with the logistic models.
 
-The Week 5 checkpoint should be complete before adding the Week 6 comparison. The starter notebook now includes a spline-logistic benchmark, a shallow classification tree, a Random Forest, a common model-comparison table, threshold-policy comparisons, a subgroup check, permutation importance, and a final recommendation checkpoint.
+The Week 5 checkpoint should be complete before adding the Week 6 comparison. The starter notebook now compares three spline-logistic configurations, then carries one selected spline into a fair comparison with regularized logistic regression, a shallow classification tree, and a Random Forest. It also includes threshold-policy comparisons, a subgroup check, permutation importance, and a final recommendation checkpoint.
 
 ## Start and submit
 
