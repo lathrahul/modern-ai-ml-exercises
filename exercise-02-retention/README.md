@@ -3,7 +3,8 @@
 [![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-02-retention/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
 
 **Release:** End of Session 4  
-**Due:** During Session 6 debrief  
+**Due:** See the Exercise 02 assignment in Blackboard
+
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
 
@@ -15,9 +16,9 @@ separate from the shorter in-class guided-practice notebooks.
 1. **Week 4 checkpoint:** inspect relationships; fit Model A with tenure, Model B with tenure and monthly charges, and Model C with the full feature set; evaluate the baseline with a stratified split and five-fold cross-validation. Before regularization, distinguish these modeling iterations from the optimizer iterations used to fit one fixed specification.
 2. **Week 5 checkpoint A:** redo Model C with near-unpenalized, Ridge, and Lasso logistic regression while keeping rows, preprocessing, folds, and metrics fixed.
 3. **Week 5 checkpoint B:** convert probabilities into a retention-contact policy using campaign economics, contact capacity, and one sensitivity scenario.
-4. **Week 6 checkpoint:** compare a tree-based model and finalize the model-and-policy recommendation.
+4. **Week 6 checkpoint:** compare a tree-based model and finalize the model-and-policy recommendation. Keep the validation rows, preprocessing pipeline, folds, and metrics unchanged when comparing the tree-based candidate with the logistic models.
 
-The Week 5 checkpoint should be complete before adding the Week 6 tree-based comparison.
+The Week 5 checkpoint should be complete before adding the Week 6 comparison. The starter notebook now includes a spline-logistic benchmark, a shallow classification tree, a Random Forest, a common model-comparison table, threshold-policy comparisons, a subgroup check, permutation importance, and a final recommendation checkpoint.
 
 ## Start and submit
 

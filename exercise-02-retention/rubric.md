@@ -10,7 +10,7 @@
 
 - 7: correct framing, prevalence analysis, and baseline.
 - 8: leakage-free stratified validation and pipeline design.
-- 8: principled model comparison and regularization.
+- 8: principled model comparison and regularization, including a fair logistic-versus-tree comparison using the same validation design.
 - 7: threshold optimization using supplied economics.
 - 5: sensitivity, calibration, and segment-level error analysis.
 
