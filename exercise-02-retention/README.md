@@ -16,9 +16,14 @@ separate from the shorter in-class guided-practice notebooks.
 1. **Week 4 checkpoint:** inspect relationships; fit Model A with tenure, Model B with tenure and monthly charges, and Model C with the full feature set; evaluate the baseline with a stratified split and five-fold cross-validation. Before regularization, distinguish these modeling iterations from the optimizer iterations used to fit one fixed specification.
 2. **Week 5 checkpoint A:** redo Model C with near-unpenalized, Ridge, and Lasso logistic regression while keeping rows, preprocessing, folds, and metrics fixed.
 3. **Week 5 checkpoint B:** convert probabilities into a retention-contact policy using campaign economics, contact capacity, and one sensitivity scenario.
-4. **Week 6 checkpoint:** compare a quadratic polynomial, a selected spline, and a GAM-style additive logistic model before moving to trees. Carry one nonlinear candidate into the tree and Random Forest comparison, then finalize the model-and-policy recommendation. Keep the rows, folds, metrics, and operating assumptions unchanged.
+4. **Week 6 in class:** compare a quadratic polynomial, a selected spline, and a GAM-style additive logistic model before moving to trees. Carry one nonlinear candidate into the tree and Random Forest comparison. The class hard stop is after Section 7, permutation importance.
+5. **Week 6 independent completion:** run one controlled tree robustness experiment, choose the final model and threshold, produce a confusion matrix at that threshold, test the final model under the lower-margin scenario, choose one additional diagnostic, and write the final recommendation before generating the decision file.
 
-The Week 5 checkpoint should be complete before adding the Week 6 comparison. The starter notebook now compares a quadratic tenure model, three declared spline configurations, and a GAM-style additive logistic model with smooth tenure and monthly-charge effects. It carries one selected nonlinear candidate into a fair comparison with regularized logistic regression, a shallow classification tree, and a Random Forest. It also includes threshold-policy comparisons, a subgroup check, permutation importance, and a final recommendation checkpoint.
+The Week 5 checkpoint should be complete before adding the Week 6 comparison. The starter notebook now compares a quadratic tenure model, three declared spline configurations, and a GAM-style additive logistic model with smooth tenure and monthly-charge effects. It carries one selected nonlinear candidate into a fair comparison with regularized logistic regression, a shallow classification tree, and a Random Forest. It also includes threshold-policy comparisons, a subgroup check, permutation importance, required robustness and sensitivity work, and a student-owned final recommendation.
+
+### Week 6 classroom run
+
+From a fresh Colab runtime, select the first Week 6 code cell and use **Runtime -> Run before** to rebuild the prerequisites. Then run Sections 0-7 with the class, one section at a time. Do **not** use **Run all** during class: Sections 8-11 intentionally wait for your decisions.
 
 ## Start and submit
 
