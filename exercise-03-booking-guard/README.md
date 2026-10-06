@@ -17,9 +17,9 @@
 
 ## Week 7 classroom boundary
 
-In class, complete the prediction moment, leakage audit, temporal split, prevalence check, logistic baseline, Random Forest benchmark, one conservative boosting benchmark, and the first fair comparison table. Stop at the notebook's **Class hard stop**.
+In class, read the brief, define the prediction moment, identify likely leakage, inspect the submission contract, and write the first experiment hypothesis. The separate [Week 7 boosting lab](../shared/WEEK_07_BOOSTING_LAB.md) starts and ends in class. It does not complete any part of this take-home exercise.
 
-After class, independently complete the five-run experiment record, calibration and threshold analysis, sensitivity to every supplied policy assumption, analysis across at least three operational groups, final model and threshold decision, memo, and validated submission file. The starter does not prefill a winning model, threshold, or recommendation.
+After class, independently run the BookingGuard notebook and complete the model benchmarks, five-run experiment record, calibration and threshold analysis, sensitivity to every supplied policy assumption, analysis across at least three operational groups, final model and threshold decision, memo, and validated submission file. The starter does not prefill a winning model, threshold, or recommendation.
 
 ## Your role
 
