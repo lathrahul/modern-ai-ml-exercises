@@ -66,7 +66,7 @@ The data derive from IBM's fictional telecom sample and have been prepared speci
    - Ridge (L2) logistic regression;
    - Lasso (L1) logistic regression;
    - a quadratic, spline, and GAM-style nonlinear checkpoint;
-   - one decision tree or Random Forest after Session 6.
+   - a shallow decision tree and a Random Forest after Session 6, using the same validation design for comparison.
 5. Report ROC-AUC, PR-AUC, log loss, and at least one confusion matrix.
 6. Calculate expected campaign value over a range of thresholds using the supplied assumptions.
 7. Select one threshold and perform a sensitivity analysis.
@@ -91,9 +91,9 @@ CUST-123456,0.73,1
 python3 checks/validate_submission.py submission.csv
 ```
 
-### 2. Executed notebook and experiment summary
+### 2. Fully executed notebook
 
-Show preprocessing, cross-validation, model comparison, probability evaluation, threshold economics, sensitivity analysis, and final decision generation.
+Show preprocessing, cross-validation, model comparison, probability evaluation, threshold economics, sensitivity analysis, and final decision generation, with visible outputs and the AI-use disclosure inside the notebook.
 
 ### 3. One-page retention memo
 
