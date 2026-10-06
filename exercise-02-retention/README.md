@@ -3,7 +3,7 @@
 [![Open starter in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/exercise-02-retention/notebooks/getting_started.ipynb) [![Explore outputs in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lathrahul/modern-ai-ml-exercises/blob/main/shared/explore_outputs_in_colab.ipynb)
 
 **Release:** End of Session 4  
-**Due:** Sunday, October 11, 2026 at 11:59 PM EDT (Blackboard controls any announced change)
+**Due:** Wednesday, October 14, 2026 at 11:59 PM EDT (Blackboard controls any announced change)
 
 **Expected effort:** 5–7 hours  
 **Work mode:** Individual
