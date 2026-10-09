@@ -99,9 +99,9 @@ Show preprocessing, cross-validation, model comparison, probability evaluation, 
 
 Write for the VP of Customer Retention. Recommend a policy, expected contacts per 10,000 customers, expected value under the supplied assumptions, key churn signals, sensitivity risks, and one fairness or customer-experience concern.
 
-### 4. Three-minute methodology presentation
+### 4. Methodology deck
 
-Explain the validation design, model selection, threshold, and one limitation. Do not narrate notebook cells.
+Submit a concise deck in **PPTX or PDF**. Three slides are recommended: validation and model choice; threshold and economics; recommendation and limitation. The deck summarizes evidence already present in the notebook and memo. **No video recording is required.**
 
 ## Technical evaluation
 
