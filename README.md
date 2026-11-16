@@ -22,7 +22,7 @@ hosts the formatted briefs only.
 | [HomeValue](exercise-01-homevalue/) | 1–3 | What is a defensible screening value for a home? | Linear regression |
 | [Save or Let Go](exercise-02-retention/) | 4–6 | Which customers should receive a retention offer? | Classification and thresholding |
 | [BookingGuard](exercise-03-booking-guard/) | 7–8 | Which hotel bookings warrant a deposit? | Gradient boosting and model selection |
-| [Segment Studio](exercise-04-segment-studio/) | 9–10 | Which customer segments deserve distinct strategies? | Clustering, PCA, and business storytelling |
+| [MovieLens Audience Segmentation](exercise-04-movielens-segmentation/) | 11 | Which audience segments support distinct experiences or research questions? | Clustering, stability, and business interpretation |
 | [VisualSort](exercise-05-visual-sort/) | 11–13 | Can transfer learning route retail images reliably? | Neural networks and transfer learning |
 | [Causal Campaign](exercise-06-causal-campaign/) | 14 | Did the email campaign cause incremental purchases? | Causal inference and responsible AI |
 
@@ -48,7 +48,7 @@ Google Colab is recommended. For local use, install the packages in `requirement
 - Exercise 1 derives from the Ames Housing data made available by Dean De Cock and the Ames City Assessor's Office: https://cmustatistics.github.io/data-repository/money/ames-housing.html
 - Exercise 2 derives from IBM's fictional Telco Customer Churn sample: https://github.com/IBM/telco-customer-churn-on-icp4d
 - Exercise 3 derives from the Hotel Booking Demand datasets: https://doi.org/10.1016/j.dib.2018.11.126
-- Exercise 4 derives from UCI Online Retail: https://doi.org/10.24432/C5BW33
+- Exercise 4 uses the MovieLens `ml-latest-small` dataset from GroupLens Research: https://grouplens.org/datasets/movielens/latest/
 - Exercise 5 derives from Fashion-MNIST: https://github.com/zalandoresearch/fashion-mnist
 - Exercise 6 derives from Kevin Hillstrom's email marketing challenge: https://blog.minethatdata.com/2008/03/minethatdata-e-mail-analytics-and-data.html
 
